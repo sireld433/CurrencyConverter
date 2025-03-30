@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         btnGo.setOnClickListener {
             val amount = editText.text.toString().toDoubleOrNull()
             if (amount == null) {
-                Toast.makeText(this, "Vui lòng nhập số tiền hợp lệ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Nhập số tiền hợp lệ", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
